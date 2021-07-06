@@ -11,7 +11,7 @@
 <a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
 </div><br>
 
-2.<span</span>필수 패키지 설치
+2.<span></span>필수 패키지 설치
 ---
 
 ```
