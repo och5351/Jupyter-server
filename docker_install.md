@@ -108,9 +108,12 @@
 ---
 
 ```
-    $> 
+    $> sudo docker run -i -t --name jupyter_server ubuntu /bin/bash
 ```
 
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
 
 옵션 참고 
 <table style="border-collapse: collapse; width: 100%; height: 1123px;" border="1" data-ke-style="style6">
@@ -307,4 +310,65 @@
 </tr>
 </tbody>
 </table>
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
  
+ 12.<span></span> Container 나온 후 container 확인
+---
+
+```
+    docker > exit
+    $> sudo docker ps -a
+```
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
+
+ 13.<span></span> container 접속
+---
+
+```
+    $> sudo docker restart jupyter_server # 재시작
+    $> sudo docker attach jupyter_server
+```
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
+
+ 번외.<span></span> container 중지
+---
+
+```
+    $> sudo docker stop jupyter_server 
+```
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
+
+ 번외.<span></span> container 삭제 or image 삭제
+---
+
+```
+    $> sudo docker rm jupyter_server # container 삭제
+    $> docker rmi ubuntu:latest
+```
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
+
+ 번외.<span></span> docker 사용 권한 주기
+---
+
+```
+    $> sudo usermod -aG docker your-user
+```
+
+<div align="right"> 
+<a href="https://github.com/och5351/Jupyter-server/blob/main/Readme.md"> 메인으로 </a>
+</div><br>
