@@ -11,4 +11,5 @@ Ubuntu 20.04 기준
 ---
 
  * <a href='https://github.com/och5351/Jupyter-server/blob/main/docker_install.md'>docker</a>
- * <a href='#'>python3</a>
+ * <a href='https://github.com/och5351/Jupyter-server/blob/main/anaconda_install.md'>anaconda3</a>
+ * <a href='https://github.com/och5351/Jupyter-server/blob/main/jupyter_server_setting.md'>jupyter notebook</a>

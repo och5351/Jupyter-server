@@ -27,7 +27,7 @@
     In [2]: passwd()
     Enter password: '입력'
     Verify password: '입력'
-    Out[3]: 'argon2:$argon2id$v=19$m=10240,t=10,p=8$pKy63cvBWqX/8Wqc6xSLRA$Tdfz6MmpaAqkDwCttK9atw'
+    Out[3]: 'argon2:$argon2id.......'
 
     In [3]: exit()
 
