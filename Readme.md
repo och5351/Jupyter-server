@@ -14,3 +14,4 @@ Ubuntu 20.04 기준
  * <a href='https://github.com/och5351/Jupyter-server/blob/main/anaconda_install.md'>anaconda3</a>
  * <a href='https://github.com/och5351/Jupyter-server/blob/main/jupyter_server_setting.md'>jupyter notebook</a>
  * <a href='https://github.com/och5351/Jupyter-server/blob/main/voila.md'>voila</a>
+ * <a href='https://github.com/och5351/Jupyter-server/blob/main/selenium.md'>selenium</a>
