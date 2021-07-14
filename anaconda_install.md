@@ -80,6 +80,8 @@
 ```
     docker ~ > conda activate jupyter-gpu-server
     (jupyter-gpu-server) docker ~ >
+    ## conda activate 안될경우
+    docker ~ > source activate jupyter-gpu-server
 ```
 
 <div align="right"> 
