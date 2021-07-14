@@ -32,6 +32,8 @@
 ```
     docker ~ > source ~/.bashrc
     docker ~ > conda list # 아나콘다 bashrc 적용 확인
+    ## conda 명령어 적용이 안될 경우###
+    docker ~ > export PATH="~/anaconda3/bin:$PATH"
 ```
 
 <div align="right"> 
