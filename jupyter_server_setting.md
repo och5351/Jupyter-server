@@ -91,10 +91,12 @@
 
     $> sudo docker run \
     > --name jupyter_server \
-    > --hostname=jupyter \
+    > --hostname jupyter \
     > --privileged=true -i -t -d \
     > -p 호스트포트:8888 \
     > -p 호스트포트:8866 \ # voila 용
+    > -v 호스트디렉터리경로:컨테이너디렉터리경로
+    > --gpus '"device=0,1,2,3"'
     > jupyter_server_img /bin/bash
 
     $> sudo docker ps -a
